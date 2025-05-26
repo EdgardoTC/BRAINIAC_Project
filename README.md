@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="BRAINIAC_Logo.jpeg" alt="BRAINIAC Logo" width="250"/>
+</p>
 # BRAINIAC_Project
 **Brain Imaging Automated Classifier (BRAINIAC) Project**
 A fully automated deep learning pipeline for classifying structural MRI scans using 3D convolutional neural networks. No manual preprocessing required — just plug in your NIfTI files.
