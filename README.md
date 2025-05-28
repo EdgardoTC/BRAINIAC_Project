@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="BRAINIAC_Logo.jpeg" alt="BRAINIAC Logo" width="250"/>
+  <img src="assets/BRAINIAC_Logo_bg.jpeg" alt="BRAINIAC Logo"/>
 </p>
 
 ## BRAINIAC_Project
