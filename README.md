@@ -14,11 +14,12 @@ A fully automated deep learning pipeline for classifying structural MRI scans us
 - Easily extensible for other binary neuroimaging tasks
 
 ## Use Case
-Initially designed to distinguish patients with **treatment-resistant schizophrenia (TRS)** from patients with **treatment-responsive (TxR)** using T1-weighted MRI.
+The project was initially designed to distinguish patients with **treatment-resistant schizophrenia (TRS)** from patients with **treatment-responsive (TxR)** using T1-weighted MRI. 
+It has now evolved to encompass the use of multi-site data for the categorization of different patient groups.
 
 ## Getting Started
 1. Place `.nii` or `.nii.gz` files into `Patient_Group_1/` and `Patient_Group_2/` folders.
-2. Run `python main.py`.
+2. Run `BRAINIAC_Project.py`.
 3. View results in console and generated plots.
 
 ## Requirements
@@ -29,6 +30,12 @@ Initially designed to distinguish patients with **treatment-resistant schizophre
 - scikit-learn
 - matplotlib
 - joblib
+
+## Future Additions
+- Grad-CAM for 3D-CNN to improve interpretability
+- Addition of Grad-CAM activation overlays on brain scans for visualization
+- Possible hybrid CNN and regional features
+- Addition of multi-sequence use (T2Flair, qT1, SWI)
 
 ## Citation
 Coming soon...
