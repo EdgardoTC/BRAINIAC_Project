@@ -3,7 +3,7 @@
 </p>
 
 ## BRAINIAC_Project
-**Brain Imaging Automated Classifier (BRAINIAC) Project**
+**Brain Imaging Automatic Classifier (BRAINIAC) Project**
 A fully automated deep learning pipeline for classifying structural MRI scans using 3D convolutional neural networks. No manual preprocessing required — just plug in your NIfTI files.
 
 ## Features
