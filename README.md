@@ -40,5 +40,14 @@ It has now evolved to encompass the use of multi-site data for the categorizatio
 ## Citation
 Coming soon...
 
+## Acknowledgements
+- Edgardo Torres-Carmona
+- Dr. Mario Graff-Guerrero
+- Dr. Fumihiko Ueno
+- Dr. Teruki Koizumi
+- Dr. Shinichiro Nakajima
+- Dr. Philip Gerretsen
+- Dr. Ariel Graff-Guerrero
+
 ## License
 MIT
