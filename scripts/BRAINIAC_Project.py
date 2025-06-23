@@ -163,7 +163,7 @@ def train_and_evaluate(scan_paths, labels, epochs=5, batch_size=2):
     cm = confusion_matrix(all_targets, all_preds)
     cr = classification_report(all_targets, all_preds)
 
-    print("\n📊 Validation Metrics:")
+    print("\n Validation Metrics:")
     print(f"Accuracy:  {acc:.3f}")
     print(f"Precision: {prec:.3f}")
     print(f"Recall:    {rec:.3f}")
@@ -173,7 +173,7 @@ def train_and_evaluate(scan_paths, labels, epochs=5, batch_size=2):
     print(cm)
     print("\nClassification Report:")
     print(cr)
-    print("\n🔍 Sample prediction probabilities:")
+    print("\n Sample prediction probabilities:")
     print(all_probs[:10])
 
     fpr, tpr, _ = roc_curve(all_targets, all_probs)
